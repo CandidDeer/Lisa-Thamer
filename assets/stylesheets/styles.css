@@ -1,0 +1,148 @@
+/* Color scheme:
+Black: #000000;
+French bistre: #8e724d;
+Navajo white: #ffe0b5;
+Dark sienna: #350005;
+Rosy brown: #bd8a84;
+*/
+
+@font-face {
+    font-family: "Pacific Sans";
+    src: url(../fonts/Pacific\ Beach\ Sans_Creative\ Fabrica_commercial\ license.otf);
+}
+
+@font-face {
+    font-family: "Pacific Script";
+    src: url(../fonts/Pacific\ Beach\ Script_Creative\ Fabrica_commercial\ license.otf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*:focus {
+    outline: 2px solid #bd8a84;
+}
+
+a.navbar-brand {
+    color: #8e724d;
+    font-size: 2rem;
+}
+
+a.navbar-brand:focus,
+a.navbar-brand:hover {
+    color: #ffe0b5;
+}
+
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item:active {
+    height: 100vh;
+}
+
+.carousel-indicators button {
+    background-color: #8e724d !important;
+}
+
+#slide1image {
+    background-image: linear-gradient(to bottom, #000000bf 40%, #350005bf), url(../images/monstera_96ppi.jpg);
+    background-position: center;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slide2image {
+    background-image: linear-gradient(to bottom, #000000bf 40%, #350005bf), url(../images/alocasia_96ppi.jpg);
+    background-position: center;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slide3image {
+    background-image: linear-gradient(to bottom, #000000bf 40%, #350005bf), url(../images/ti_96ppi.jpg);
+    background-position: center;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.carousel-caption h1 {
+    color: #ffe0b5;
+    font-family: "Pacific Sans", "Arial", sans-serif;
+    font-size: 5rem;
+    line-height: 100%;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    color: #8e724d;
+    font-family: "Pacific Script", "Georgia", serif;
+    font-size: 4rem;
+    line-height: 100%;
+    margin: 0 0 1rem 0;
+}
+
+.buttongroup a {
+    border: 2px solid #ffe0b5;
+    color: #ffe0b5;
+    font-family: "Pacific Sans", "Arial", sans-serif;
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+}
+
+.buttongroup a:first-child {
+    margin-right: 1rem;
+}
+
+.buttongroup a:focus,
+.buttongroup a:hover {
+    background-color: unset;
+    border: 2px solid #ffe0b5;
+    box-shadow: none;
+    color: #8e724d;
+    outline: 2px solid #bd8a84;
+}
+
+.carousel-control-prev::before {
+    color: #8e724d;
+    content: "❮";
+    font-size: 5rem;
+}
+
+.carousel-control-next::after {
+    color: #8e724d;
+    content: "❯";
+    font-size: 5rem;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer p {
+    color: #8e724d;
+    font-family: "Arial", sans-serif;
+    font-size: 1.125rem;
+    line-height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffe0b5;
+}
+
+footer a:hover {
+    color: #8e724d;
+}
